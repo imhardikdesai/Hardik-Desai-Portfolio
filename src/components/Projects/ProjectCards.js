@@ -7,7 +7,7 @@ import Badge from 'react-bootstrap/Badge';
 
 
 function ProjectCards(props) {
-  const colorArr = ["Primary",]
+  // const colorArr = ["Primary",]
   return (
     <Card className="project-card-view justify-content-center">
       <Card.Img style={{ width: "79%" }} variant="top" src={props.imgPath} alt="card-img" />

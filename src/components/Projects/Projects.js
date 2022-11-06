@@ -13,10 +13,12 @@ function Projects() {
     let myProjects = await data.json();
     setProject(myProjects.projects);
   }
+
   useEffect(() => {
+
     fetchProject();
     console.log(project);
-  }, []);
+  }, );
 
   return (
     <Container fluid className="project-section">
@@ -55,6 +57,7 @@ function Projects() {
             />
           </Col> */}
         </Row>
+
       </Container>
     </Container>
   );
