@@ -15,10 +15,8 @@ function Projects() {
   }
 
   useEffect(() => {
-
     fetchProject();
-    console.log(project);
-  }, );
+  });
 
   return (
     <Container fluid className="project-section">

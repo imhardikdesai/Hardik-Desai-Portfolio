@@ -7,19 +7,33 @@ import Badge from 'react-bootstrap/Badge';
 
 
 function ProjectCards(props) {
-  // const colorArr = ["Primary",]
+  const colorArr = {
+    "Javascript": ["warning", "dark"],
+    "React Js": ["info", "dark"],
+    "API": ["secondary", "light"],
+    "Node Js": ["success", "light"],
+    "Bootstrap": ["primary", "light"],
+    "HTML": ["danger", "light"],
+    "CSS": ["primary", "light"],
+    "Android": ["success", "light"],
+    "Firebase": ["warning", "dark"],
+    "JAVA": ["secondary", "light"]
+  }
+  const getColor = (badge) => {
+    return colorArr[badge];
+  }
   return (
-    <Card className="project-card-view justify-content-center">
+    <Card className="project-card-view justify-content-center align-items-center">
       <Card.Img style={{ width: "79%" }} variant="top" src={props.imgPath} alt="card-img" />
       <Card.Body>
-        <Card.Title>{props.title}</Card.Title>
-        <Card.Text style={{ textAlign: "justify" }}>
+        <Card.Title style={{fontSize:"1.5rem", padding:"0px 10px"}}>{props.title}</Card.Title>
+        <Card.Text style={{ textAlign: "center" }}>
           {props.description}
         </Card.Text>
 
         <div className="m-3">
           {props.badge.map((element) => {
-            return <span key={element}><Badge pill bg="primary">{element}</Badge>{' '}</span>
+            return <span key={element}><Badge text={getColor(element)[1]} pill bg={getColor(element)[0]}>{element}</Badge>{' '}</span>
           })}
         </div>
 
