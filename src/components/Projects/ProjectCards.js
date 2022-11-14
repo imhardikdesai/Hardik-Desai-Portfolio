@@ -13,7 +13,7 @@ function ProjectCards(props) {
     "API": ["secondary", "light"],
     "Node Js": ["success", "light"],
     "Bootstrap": ["primary", "light"],
-    "HTML": ["danger", "#800000"],
+    "HTML": ["#800000", "light"],
     "CSS": ["primary", "light"],
     "Android": ["success", "light"],
     "Firebase": ["warning", "dark"],
@@ -26,7 +26,7 @@ function ProjectCards(props) {
     <Card className="project-card-view justify-content-center align-items-center">
       <Card.Img style={{ width: "79%" }} variant="top" src={props.imgPath} alt="card-img" />
       <Card.Body>
-        <Card.Title style={{ fontSize: "1.5rem", padding: "0px 10px" }}>{props.title}</Card.Title>
+        <Card.Title style={{fontSize:"1.5rem", padding:"0px 10px"}}>{props.title}</Card.Title>
         <Card.Text style={{ textAlign: "center" }}>
           {props.description}
         </Card.Text>
