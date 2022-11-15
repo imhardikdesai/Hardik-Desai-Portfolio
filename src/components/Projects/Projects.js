@@ -8,7 +8,7 @@ function Projects() {
   const [project, setProject] = useState([])
 
   const fetchProject = async () => {
-    const url = 'https://raw.githubusercontent.com/imhardikdesai/hardikdesai-portfolio/main/assets/json/project.json';
+    const url = 'https://raw.githubusercontent.com/imhardikdesai/JSON-Data/main/Hardik-Desai-Portfolio/project.json';
     let data = await fetch(url);
     let myProjects = await data.json();
     setProject(myProjects.projects);
