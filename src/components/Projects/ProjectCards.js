@@ -17,7 +17,12 @@ function ProjectCards(props) {
     "CSS": ["css", "light"],
     "Android": ["android", "dark"],
     "Firebase": ["firebase", "dark"],
-    "JAVA": ["java", "dark"]
+    "JAVA": ["java", "dark"],
+    "Chakra UI": ["chakra", "dark"],
+    "Next Js": ["nextjs", "light"],
+    "MongoDB": ["mongodb", "light"],
+    "Material UI": ["materialui", "light"],
+    "Tailwind CSS": ["tailwindcss", "dark"],
   }
   const getColor = (badge) => {
     return colorArr[badge];
