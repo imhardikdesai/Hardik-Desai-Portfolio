@@ -2,21 +2,23 @@ import React, { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
+import ProjectData from "../../constant/Projects";
+
 
 function Projects() {
 
-  const [project, setProject] = useState([])
+  const [project, setProject] = useState(ProjectData)
 
-  const fetchProject = async () => {
-    const url = 'https://raw.githubusercontent.com/imhardikdesai/JSON-Data/main/Hardik-Desai-Portfolio/project.json';
-    let data = await fetch(url);
-    let myProjects = await data.json();
-    setProject(myProjects.projects);
-  }
+  // const fetchProject = async () => {
+  //   const url = 'https://raw.githubusercontent.com/imhardikdesai/JSON-Data/main/Hardik-Desai-Portfolio/project.json';
+  //   let data = await fetch(url);
+  //   let myProjects = await data.json();
+  //   setProject(myProjects.projects);
+  // }
 
-  useEffect(() => {
-    fetchProject();
-  });
+  // useEffect(() => {
+  //   fetchProject();
+  // },[]);
 
   return (
     <Container fluid className="project-section">
