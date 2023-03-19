@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
@@ -7,7 +7,7 @@ import ProjectData from "../../constant/Projects";
 
 function Projects() {
 
-  const [project, setProject] = useState(ProjectData)
+  const [project] = useState(ProjectData)
 
   // const fetchProject = async () => {
   //   const url = 'https://raw.githubusercontent.com/imhardikdesai/JSON-Data/main/Hardik-Desai-Portfolio/project.json';
