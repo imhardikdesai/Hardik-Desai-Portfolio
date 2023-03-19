@@ -9,7 +9,7 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://raw.githubusercontent.com/imhardikdesai/hardikdesai-portfolio/main/assets/Resume/Hardik_Resume_july_2022.pdf";
+  "https://raw.githubusercontent.com/imhardikdesai/Hardik-Desai-Portfolio/main/src/Assets/Resume%20.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
