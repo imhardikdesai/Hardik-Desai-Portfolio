@@ -1,4 +1,20 @@
 const ProjectData = [
+     {
+        "title": "Socio Hub",
+        "description": "Connect and share with friends and like-minded individuals on our social media platform",
+        "imgurl": "https://user-images.githubusercontent.com/87645745/230723979-e5a5e4d7-6275-4f67-a31b-1a51dca8eeda.png",
+        "liveDemoLink": "https://sociohub.netlify.app/",
+        "sourceLink": "https://github.com/imhardikdesai",
+        "badge": [
+            "HTML",
+            "CSS",
+            "Javascript",
+            "React Js",
+            "Bootstrap",
+            "Chakra UI",
+            "Firebase"
+        ]
+    },
     {
         "title": "E Commerce Management",
         "description": "An online shop for sell products. also authentication system for existing and new user",
@@ -172,45 +188,45 @@ const ProjectData = [
             "Bootstrap"
         ]
     },
-    {
-        "title": "Guess the Color Game",
-        "description": "This is a game where you have given RGB value of color and bellow there are six color box. You have to guess that color box from given RGB value.",
-        "imgurl": "https://user-images.githubusercontent.com/87645745/180635610-f67323bf-c026-4b4f-a019-45335aeb7ad2.png",
-        "liveDemoLink": "https://imhardikdesai.github.io/guess-the-color-game/",
-        "sourceLink": "https://github.com/imhardikdesai/guess-the-color-game",
-        "badge": [
-            "HTML",
-            "CSS",
-            "Javascript",
-            "Bootstrap"
-        ]
-    },
-    {
-        "title": "Guess the Number Game",
-        "description": "In this Game Computer will guess the number between 1 to 100. And your task is to find that number in 10 Chance.",
-        "imgurl": "https://user-images.githubusercontent.com/87645745/180635615-f7338270-ef1d-417d-89f5-321489f9b5bf.png",
-        "liveDemoLink": "https://imhardikdesai.github.io/guess-the-number-game/",
-        "sourceLink": "https://github.com/imhardikdesai/guess-the-number-game",
-        "badge": [
-            "HTML",
-            "CSS",
-            "Javascript"
-        ]
-    },
-    {
-        "title": "QR Code Generator",
-        "description": "An Utility will help you to Convert any Given Text or Link into QR Code.",
-        "imgurl": "https://user-images.githubusercontent.com/87645745/185958084-668cab60-6f1f-4880-9f92-5530f5f9c1a6.png",
-        "liveDemoLink": "https://imhardikdesai.github.io/qr-code-generator/",
-        "sourceLink": "https://github.com/imhardikdesai/qr-code-generator",
-        "badge": [
-            "HTML",
-            "CSS",
-            "Javascript",
-            "Bootstrap",
-            "API"
-        ]
-    },
+//     {
+//         "title": "Guess the Color Game",
+//         "description": "This is a game where you have given RGB value of color and bellow there are six color box. You have to guess that color box from given RGB value.",
+//         "imgurl": "https://user-images.githubusercontent.com/87645745/180635610-f67323bf-c026-4b4f-a019-45335aeb7ad2.png",
+//         "liveDemoLink": "https://imhardikdesai.github.io/guess-the-color-game/",
+//         "sourceLink": "https://github.com/imhardikdesai/guess-the-color-game",
+//         "badge": [
+//             "HTML",
+//             "CSS",
+//             "Javascript",
+//             "Bootstrap"
+//         ]
+//     },
+//     {
+//         "title": "Guess the Number Game",
+//         "description": "In this Game Computer will guess the number between 1 to 100. And your task is to find that number in 10 Chance.",
+//         "imgurl": "https://user-images.githubusercontent.com/87645745/180635615-f7338270-ef1d-417d-89f5-321489f9b5bf.png",
+//         "liveDemoLink": "https://imhardikdesai.github.io/guess-the-number-game/",
+//         "sourceLink": "https://github.com/imhardikdesai/guess-the-number-game",
+//         "badge": [
+//             "HTML",
+//             "CSS",
+//             "Javascript"
+//         ]
+//     },
+//     {
+//         "title": "QR Code Generator",
+//         "description": "An Utility will help you to Convert any Given Text or Link into QR Code.",
+//         "imgurl": "https://user-images.githubusercontent.com/87645745/185958084-668cab60-6f1f-4880-9f92-5530f5f9c1a6.png",
+//         "liveDemoLink": "https://imhardikdesai.github.io/qr-code-generator/",
+//         "sourceLink": "https://github.com/imhardikdesai/qr-code-generator",
+//         "badge": [
+//             "HTML",
+//             "CSS",
+//             "Javascript",
+//             "Bootstrap",
+//             "API"
+//         ]
+//     },
     // {
     //     "title": "Notes App Android",
     //     "description": "Notes App Will collect your task as a note. You can add title and content. also you can save changes in firebase. This app will provide authentication to user, also give facility to recover password.",
